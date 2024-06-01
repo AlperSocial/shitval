@@ -85,6 +85,9 @@ h1, h2, h3 {
 .item .pros-cons ul li.cons {
     color: #ff6a6a;
 }
+.item .pros-cons ul li.eh {
+    color: #ffff00;
+}
 .item .btn-container {
     display: flex;
     justify-content: center;
