@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 .navbar img {
-    height: auto;
+    height: 45px;
     cursor: pointer;
 }
 .container {
