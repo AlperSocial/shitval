@@ -6,11 +6,11 @@ function redirect(urltext) {
         text: "You are leaving shitval.top, are you sure you want to go to '" + url.hostname + "'?",
         icon: "warning",
         showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: "Redirect me to " + url.hostname,
-        denyButtonText: "Stay on shitval.top"
+        showCancelButton: false,
+        denyButtonText: "Redirect me to " + url.hostname,
+        confirmButtonText: "Stay on shitval.top"
     }).then((result) => {
-      if (result.isConfirmed) {
+      if (!result.isConfirmed) {
           window.open(urltext, "_blank")
       }
     });
