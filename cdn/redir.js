@@ -5,7 +5,7 @@ function redirect(urltext) {
     
     Swal.fire({
         title: "Hold on!",
-        text: "You are leaving shitval.top, are you sure you want to go to '" + url.hostname + "'?",
+        text: "You are leaving shitval.top, are you sure you want to go to " + url.hostname + "?",
         icon: "warning",
         showDenyButton: true,
         showCancelButton: false,
