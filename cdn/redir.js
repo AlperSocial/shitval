@@ -1,6 +1,8 @@
 function redirect(urltext) {
     const url = new URL(urltext);
     if (url.hostname == "discord.com") { return window.open(urltext, "_blank"); }
+    if (url.hostname == "shitval.top" || url.hostname == "www.shitval.top") { return window.open(urltext, "_self"); }
+    
     Swal.fire({
         title: "Hold on!",
         text: "You are leaving shitval.top, are you sure you want to go to '" + url.hostname + "'?",
