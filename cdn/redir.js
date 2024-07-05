@@ -7,10 +7,14 @@ function redirect(urltext) {
         icon: "warning",
         showDenyButton: true,
         showCancelButton: false,
-        denyButtonText: "Redirect me to " + url.hostname,
-        confirmButtonText: "Stay on shitval.top"
+
+        confirmButtonColor: "#dc3741",
+        denyButtonColor: "#7066e0",
+        
+        confirmButtonText: "Redirect me to " + url.hostname,
+        denyButtonText: "Stay on shitval.top"
     }).then((result) => {
-      if (!result.isConfirmed) {
+      if (result.isConfirmed) {
           window.open(urltext, "_blank")
       }
     });
