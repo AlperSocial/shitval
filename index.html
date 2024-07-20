@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="https://shitval.top">
-	<meta name="twitter:title" content="Shitval">
-	<meta name="twitter:description" content="A website that has a list of Roblox Revivals">
-	<meta content="https://shitval.top/cdn/logo.png" property="og:image" />
+    <meta name="twitter:site" content="https://shitval.top">
+    <meta name="twitter:title" content="Shitval">
+    <meta name="twitter:description" content="A website that has a list of Roblox Revivals">
+    <meta content="https://shitval.top/cdn/logo.png" property="og:image" />
     <title>Shitval - Home</title>
     <link rel="icon" href="cdn/logo.png" type="image/png">
     <link rel="stylesheet" href="css/index.css">
+    <style>
+        .gif-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .gif-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-<script src="cdn/oneko.js"></script>
     <div id="particles-js"></div>
     <div class="content">
         <div class="logo">
@@ -24,9 +35,12 @@
             <a href="communities.html" class="button">Communities</a>
         </div>
     </div>
+    <div class="gif-container">
+        <img src="cdn/HAPPY-HAPPY-HAPPY.gif" alt="monkey">
+    </div>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- particles.js config (really fucking long) -->
+    <script src="https://cdn.jsdelivr.net/npm/disable-devtool"></script>
     <script>
         particlesJS("particles-js", {
             "particles": {
@@ -136,6 +150,16 @@
                 }
             },
             "retina_detect": true
+        });
+
+        DisableDevtool({
+            ondevtoolopen: (type) => { 
+                document.querySelector('.content').style.display = 'none';
+                document.querySelector('.gif-container').style.display = 'flex';
+                setInterval(function() {
+                    location.reload();
+                }, 2000);
+            },
         });
     </script>
 </body>
