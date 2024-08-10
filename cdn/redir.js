@@ -1,7 +1,7 @@
 function redirect(urltext) {
     const url = new URL(urltext);
-    if (url.hostname === "discord.com" || url.hostname === "discord.gg") { return window.open(urltext, "_blank"); }
-    if (url.hostname === "shitval.top" || url.hostname === "www.shitval.top") { return window.open(urltext, "_self"); }
+    if (url.hostname == "discord.com" || url.hostname == "discord.gg") { return window.open(urltext, "_blank"); }
+    if (url.hostname == "shitval.top" || url.hostname == "www.shitval.top") { return window.open(urltext, "_self"); }
     
     Swal.fire({
         title: "Hold on!",
