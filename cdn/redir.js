@@ -52,13 +52,13 @@ document.addEventListener("click", function(event) {
         continue; // skip cuz invalid
     };
     if (hostname === "shitval.top" || hostname === "www.shitval.top") {
-        continue; // skip cuz it's shitval
+        window.open(url, "_blank") // skip cuz it's shitval
     };
     if (hostname === "discord.gg" || hostname === "www.discord.gg") {
-        continue; // skip cuz it's shitval
+        window.open(url, "_blank") // skip cuz it's discord
     };
     if (hostname === "discord.com" || hostname === "www.discord.com") {
-        continue; // skip cuz it's shitval
+        window.open(url, "_blank") // skip cuz it's discord
     };
     event.preventDefault();
     popupredir(el.href);
