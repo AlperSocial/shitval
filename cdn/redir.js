@@ -2,7 +2,7 @@
 // thank you to maxxus for most of the code <3
 // might not work, depends on my stupidity
 
-function popupredir {
+function popupredir(urltext) {
     const url = new URL(urltext);
     
 Swal.fire({
