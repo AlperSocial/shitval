@@ -49,7 +49,7 @@ document.addEventListener("click", function(event) {
     const hostname = getHostname(el.href);
     if (hostname === null) {
         console.warn("invalid link on element:", el);
-        continue; // skip cuz invalid
+        alert("This link has been detected as invalid. If this is a mistake, please contact us bellow."); // skip cuz invalid
     };
     if (hostname === "shitval.top" || hostname === "www.shitval.top") {
         window.open(url, "_blank") // skip cuz it's shitval
