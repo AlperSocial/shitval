@@ -24,12 +24,6 @@ Swal.fire({
 });
 }
 
-$(document).on('click', 'a', function(e) {
-    redirect(e.target.parentElement.href)
-    e.preventDefault();
-    return false;
-});
-
 const getHostname = ("canParse" in URL) ? (function(url) {
     if (URL.canParse(url)) { return new URL(url).hostname; } else { return null; };
 }) : (function(url) {  
