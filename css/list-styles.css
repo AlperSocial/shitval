@@ -127,3 +127,38 @@ h1, h2, h3 {
 .contact-section a:hover {
     color: #4cc34c;
 }
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.tag-new {
+    background: #fff;
+    color: black;
+}
+.tag-wip {
+    background: red;
+    color: #fff;
+}
+.tag-public {
+    background: #00b541;
+    color: #fff;
+}
+.tag-private {
+    background: #ff7800;
+    color: #fff;
+}
+.tag-recommended {
+    background: #004cff;
+    color: #fff;
+}
