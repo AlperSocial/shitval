@@ -87,6 +87,11 @@ h1, h2, h3 {
 .item .pros-cons ul li.ehh {
     color: #ffff00;
 }
+.item .pros-cons ul li.idk {
+    color: gray;
+}
+.item .pros-cons ul li.idk:before { content: "I haven't seen any cons of this revival as of now. If there is any, please send a complaint." }
+
 .item .btn-container {
     display: flex;
     justify-content: center;
