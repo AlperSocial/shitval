@@ -1,3 +1,6 @@
+const getRandomNumber = (min, max) => (Math.random() * (max - min) + min);
+const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
+
 (function oneko() {
   const credits = "// oneko.js: https://github.com/adryd325/oneko.js"
   const isReducedMotion =
@@ -8,8 +11,8 @@
 
   const nekoEl = document.createElement("div");
 
-  let nekoPosX = 32;
-  let nekoPosY = 32;
+  let nekoPosX = getRandomNumber(32, window.innerWidth);
+  let nekoPosY = getRandomNumber(32, window.innerHeight);
 
   let mousePosX = 0;
   let mousePosY = 0;
