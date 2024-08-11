@@ -1,7 +1,6 @@
 // redir.js 2.2
 // thank you to maxxus for most of the code <3
-// yw applesocial
-// this one definitely works i think
+// this one probably works
 
 const whitelistedDomains = new Set([
     "shitval.top", "www.shitval.top",
