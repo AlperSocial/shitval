@@ -14,8 +14,8 @@ const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
   let nekoPosX = getRandomNumber(32, window.innerWidth);
   let nekoPosY = getRandomNumber(32, window.innerHeight);
 
-  let mousePosX = 0;
-  let mousePosY = 0;
+  let mousePosX = nekoPosX;
+  let mousePosY = nekoPosY;
 
   let frameCount = 0;
   let idleTime = 0;
