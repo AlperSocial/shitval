@@ -96,7 +96,7 @@ const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
     nekoEl.style.imageRendering = "pixelated";
     nekoEl.style.left = `${nekoPosX - 16}px`;
     nekoEl.style.top = `${nekoPosY - 16}px`;
-    nekoEl.style.zIndex = Number.MAX_VALUE;
+    nekoEl.style.zIndex = 9999; //Number.MAX_VALUE;
     nekoEl.style.backgroundImage = `url(https://raw.githubusercontent.com/adryd325/oneko.js/main/oneko.gif)`;
 
     document.body.appendChild(nekoEl);
