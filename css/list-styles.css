@@ -146,19 +146,28 @@ h1, h2, h3 {
     background: #fff;
     color: black;
 }
+.tag-new:before { content: "New" }
+
 .tag-wip {
     background: red;
     color: #fff;
 }
+.tag-new:before { content: "WIP" }
+
 .tag-public {
     background: #00b541;
     color: #fff;
 }
+.tag-public:before { content: "Public" }
+
 .tag-private {
     background: #ff7800;
     color: #fff;
 }
+.tag-private:before { content: "Private" }
+
 .tag-recommended {
     background: #004cff;
     color: #fff;
 }
+.tag-recommended:before { content: "Recommended" }
