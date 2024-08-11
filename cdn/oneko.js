@@ -94,7 +94,7 @@
     nekoEl.style.left = `${nekoPosX - 16}px`;
     nekoEl.style.top = `${nekoPosY - 16}px`;
     nekoEl.style.zIndex = Number.MAX_VALUE;
-    nekoEl.style.backgroundImage = `url(https://github.com/adryd325/oneko.js/blob/main/oneko.gif?raw=true)`;
+    nekoEl.style.backgroundImage = `url(https://raw.githubusercontent.com/adryd325/oneko.js/main/oneko.gif)`;
 
     document.body.appendChild(nekoEl);
     document.addEventListener("mousemove", function (event) {
