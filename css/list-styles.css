@@ -152,7 +152,7 @@ h1, h2, h3 {
     background: red;
     color: #fff;
 }
-.tag-new:before { content: "WIP" }
+.tag-wip:before { content: "WIP" }
 
 .tag-public {
     background: #00b541;
