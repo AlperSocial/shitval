@@ -97,7 +97,7 @@ const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
     nekoEl.style.left = `${nekoPosX - 16}px`;
     nekoEl.style.top = `${nekoPosY - 16}px`;
     nekoEl.style.zIndex = 9999; //Number.MAX_VALUE;
-    nekoEl.style.backgroundImage = `url(https://raw.githubusercontent.com/adryd325/oneko.js/main/oneko.gif)`;
+    nekoEl.style.backgroundImage = `url(https://shitval.top/cdn/oneko.gif)`;
 
     document.body.appendChild(nekoEl);
     document.addEventListener("mousemove", function (event) {
