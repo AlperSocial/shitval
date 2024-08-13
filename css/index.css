@@ -27,8 +27,9 @@ body {
     align-items: center;
 }
 .logo img {
-    max-width: 200px;
+    max-width: 125px;
     height: auto;
+    align-items: center;
 }
 .buttons {
     display: flex;
