@@ -209,6 +209,10 @@ a:hover {
 
     .logo {
         margin-bottom: 2em;
+        margin-right: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }    
 
     .button {
