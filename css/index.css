@@ -4,7 +4,7 @@ body {
     color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: grid;
+    display: auto;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -31,7 +31,6 @@ body {
 }
 .buttons {
     display: flex;
-    max-width: 420px;
     align-items: center;
     gap: 2em;
 }
@@ -187,4 +186,30 @@ a:hover {
 }
 .btn-container .btn:hover {
     transform: scale(1.1);
+}
+
+/* idk if this works i skidded this from stack overflow */
+
+@media (max-width: 768px) {
+    .buttons {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .button {
+        padding: 1em;
+        font-size: 1em;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .info-button {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
 }
