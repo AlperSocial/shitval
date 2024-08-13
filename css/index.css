@@ -24,6 +24,7 @@ body {
 }
 .logo {
     margin-bottom: 3em;
+    align-items: center;
 }
 .logo img {
     max-width: 200px;
