@@ -23,10 +23,10 @@ body {
     z-index: 1;
 }
 .logo {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 .logo img {
-    max-width: 125px;
+    max-width: 200px;
     height: auto;
 }
 .buttons {
@@ -188,13 +188,17 @@ a:hover {
 }
 
 
-/* idk if this gon work but of this gon work then thank you */
+/* idk if this gon work but of this gon work then thank you internet */
 
 @media (max-width: 768px) {
     .buttons {
         flex-direction: column;
         max-width: 100%;
     }
+
+    .logo {
+        margin-bottom: 2em;
+    }    
 
     .button {
         padding: 1em;
