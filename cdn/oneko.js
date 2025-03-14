@@ -231,5 +231,6 @@ const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
   }
 
 document.addEventListener("DOMContentLoaded", () => {
-  init();
-});
+   init();
+ });
+ })();
