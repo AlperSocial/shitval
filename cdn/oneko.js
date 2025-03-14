@@ -230,5 +230,6 @@ const getRandomInt = (min, max) => Math.floor(getRandomNumber(min, max));
     nekoEl.style.top = `${nekoPosY - 16}px`;
   }
 
+document.addEventListener("DOMContentLoaded", () => {
   init();
-})();
+});
