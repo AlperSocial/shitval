@@ -40,6 +40,15 @@ body {
     max-width: 125px;
     height: auto;
 }
+.nonacoustic-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nonacoustic-logo img {
+    max-width: 125px;
+    height: auto;
+}
 .buttons {
     display: flex;
     gap: 2em;
@@ -213,7 +222,15 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-    }    
+    }   
+    
+    .nonacoustic-logo {
+        margin-bottom: 2em;
+        margin-left: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
 
     .button {
         padding: 1em;
@@ -223,6 +240,11 @@ a:hover {
     }
 
     .logo img {
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .nonacoustic-logo img {
         max-width: 150px;
         height: auto;
     }
