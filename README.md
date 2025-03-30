@@ -6,3 +6,5 @@ this was created as a passion project for the community, the shitval site is sti
 i would like to kindly ask for anyone forking this to atleast not remove our credit
 
 you can fork and modify this to your liking while complying with our license that you can find on the repos files
+
+you can view a demo of the site on https://shitval.top or https://shitval.vercel.app
