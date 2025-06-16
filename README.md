@@ -23,4 +23,5 @@ You are free to fork and modify this to your liking, while complying with our li
 ### Credits 
 
 AlperSocial: Founder & Lead Developer
+
 [mstudio45](https://mstudio45.com): Developer and Contributor
