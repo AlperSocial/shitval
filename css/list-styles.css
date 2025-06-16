@@ -1,0 +1,178 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img {
+    height: 45px;
+    cursor: pointer;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+h1, h2, h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+.item {
+    background: #292929;
+    padding: 1em;
+    border: 1px solid #444;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.3s;
+    width: 250px;
+    text-align: center;
+}
+.item:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    object-fit: cover;
+}
+.item h2 {
+    margin: 0;
+    color: #f4f4f4;
+    font-size: 1.5em;
+}
+.item p {
+    margin: 0.5em 0;
+    color: #ccc;
+}
+.item .pros-cons {
+    text-align: left;
+    margin-top: 1em;
+}
+.item .pros-cons ul {
+    list-style-type: none;
+    padding: 0;
+}
+.item .pros-cons ul li {
+    margin-bottom: 0.5em;
+}
+.item .pros-cons ul li.pros {
+    color: #6aff6a;
+}
+.item .pros-cons ul li.cons {
+    color: #ff6a6a;
+}
+.item .pros-cons ul li.ehh {
+    color: #ffff00;
+}
+.item .pros-cons ul li.idk {
+    color: gray;
+}
+.item .pros-cons ul li.idk:before { content: "I haven't seen any cons of this revival as of now. If there is any, please send a complaint." }
+
+.item .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.item .btn-container .btn {
+    margin: 0 0.5em;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 40px;
+    height: 40px;
+}
+.item .btn-container .btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item .btn-container .btn:hover {
+    transform: scale(1.1);
+}
+.contact-section {
+    background-color: #333;
+    color: #ccc;
+    padding: 2em 0;
+    text-align: center;
+    margin-top: 2em;
+}
+.contact-section p {
+    margin: 0.5em 0;
+}
+.contact-section a {
+    color: #6aff6a;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-section a:hover {
+    color: #4cc34c;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.tag-new {
+    background: #fff;
+    color: black;
+}
+.tag-new:before { content: "New" }
+
+.tag-wip {
+    background: red;
+    color: #fff;
+}
+.tag-wip:before { content: "WIP" }
+
+.tag-public {
+    background: #00b541;
+    color: #fff;
+}
+.tag-public:before { content: "Public" }
+
+.tag-private {
+    background: #ff7800;
+    color: #fff;
+}
+.tag-private:before { content: "Private" }
+
+.tag-recommended {
+    background: #004cff;
+    color: #fff;
+}
+.tag-recommended:before { content: "Recommended" }
