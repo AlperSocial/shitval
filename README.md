@@ -26,4 +26,4 @@ AlperSocial: Founder & Lead Developer
 
 [mstudio45](https://mstudio45.com): Developer and Contributor
 
-[VandGD/MaskotGame](https://vandgd.neocities.org/): Extra help with site and contributor
+[VandGD/MaskotGame](https://vandgd.neocities.org/): Extra help with the site and Contributor
