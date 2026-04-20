@@ -25,3 +25,5 @@ You are free to fork and modify this to your liking, while complying with our li
 AlperSocial: Founder & Lead Developer
 
 [mstudio45](https://mstudio45.com): Developer and Contributor
+
+[VandGD/MaskotGame](https://vandgd.neocities.org/): Extra help with site and contributor
