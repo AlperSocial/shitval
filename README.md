@@ -3,7 +3,7 @@
 </p>
 
 > [!IMPORTANT]  
-> This project is no longer active, goodbye!
+> This project is not actively maintained, it is somewhat but not much.
 
 # shitval.top  
 **List of Roblox Revivals**
@@ -17,7 +17,7 @@ You are free to fork and modify this to your liking, while complying with our li
 
 ### Demo
 
-- ~~[shitval.top](https://shitval.top)~~  
+- [shitval.top](https://shitval.top)  
 - [shitval.vercel.app](https://shitval.vercel.app)
 
 ### Credits 
